@@ -18,7 +18,7 @@ class RecipesController < ApplicationController
     recipe.save
     redirect_to recipes_path
   end
-end
+
 
 private
 
@@ -30,5 +30,6 @@ private
         :quantity
       ]
     )
-  end	  
+  end	 
+  
 end
